@@ -1,4 +1,4 @@
-Tone = require('Tone')
+Tone = require('tone')
 var synth = new Tone.Synth().toMaster();
 $(document).ready(function() {
 	down = {}
