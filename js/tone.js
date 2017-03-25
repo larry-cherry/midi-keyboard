@@ -21,6 +21,12 @@ $(document).ready(function() {
  	else if (e.which == 71) {
  	  synth.triggerAttackRelease('E3', '1n')
  	}
+  else if (e.which == 72) {
+    synth.triggerAttackRelease('F3', '1n')
+  }
+  else if (e.which == 74) {
+    synth.triggerAttackRelease('G3', '1n')
+  }
   })
   	
 
